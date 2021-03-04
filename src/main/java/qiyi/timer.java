@@ -18,5 +18,9 @@ public class timer extends JFrame {
          timerService frame = new timerService("计时器");
         frame.pack();
         frame.setVisible(true);
+
+        timerService frame2 = new timerService("计时器2");
+        frame2.pack();
+        frame2.setVisible(true);
     }
 }
